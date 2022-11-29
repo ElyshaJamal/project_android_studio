@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+    tools:context=".friends">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:layout_margin="6dp">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="FRIENDS"
+                android:background="@color/purple_200"
+                android:backgroundTint="@color/purple_200"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/hg" />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/friends2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:text="FRIENDS"
+                android:backgroundTint="@color/purple_200"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/hh" />
+        </TableLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/friends3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="FRIENDS"
+                android:textAlignment="center"
+                android:backgroundTint="@color/purple_200"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/eeee" />
+
+        </TableLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/friends5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:text="FRIENDS"
+                android:backgroundTint="@color/purple_200"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/gg" />
+        </TableLayout>
+
+    </ViewFlipper>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnBack1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Home"
+            android:backgroundTint="@color/purple_200"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</TableLayout>

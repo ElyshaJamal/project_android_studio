@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+    tools:context=".homepage">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple_200"
+        android:background="#102077"
+        android:text="Welcome To Our Page"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+
+    <ImageView
+        android:id="@+id/bgimage1"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/imageeee" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/imageButton"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:onClick="play"
+            android:text="PLAY"
+            android:textSize="15dp"
+            app:srcCompat="@drawable/play" />
+
+        <Button
+            android:id="@+id/imageButton2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="pause"
+            android:text="PAUSE"
+            android:textSize="15dp"
+            app:srcCompat="@drawable/pause" />
+
+        <Button
+            android:id="@+id/imageButton3"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="stop"
+            android:text="STOP"
+            android:textSize="15dp"
+            app:srcCompat="@drawable/stop" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOurself"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="OURSELF" />
+
+    <Button
+        android:id="@+id/btnFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="FRIENDS" />
+
+    <Button
+        android:id="@+id/btnFamily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="FAMILY" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="VIDEO" />
+
+    <Button
+        android:id="@+id/btnMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="MESSAGE" />
+    <Button
+        android:id="@+id/btnNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="NOTIFICATION" />
+</TableLayout>
